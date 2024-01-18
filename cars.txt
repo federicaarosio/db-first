@@ -1,0 +1,17 @@
+Nome tabella: veicoli
+
+id - intero - SMALLINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOTNULL
+tipologia_veicolo - stringa - VARCHAR(30) - NOTNULL
+marca_veicolo - stringa - VARCHAR(30) - NOTNULL
+modello_veicolo - stringa - VARCHAR(30) - NOTNULL
+anno_uscita_modello - YEAR - NOTNULL
+cilindrata_veicolo - intero - SMALLINT - NOTNULL
+cavalli_veicolo - intero - SMALLINT - NOTNULL
+targa_veicolo - stringa - VARCHAR(7) - UNIQUE - NULL
+costo_veicolo - float - FLOAT(9, 2) - NOTNULL
+alimentazione_veicolo - stringa - VARCHAR(20) - NOTNULL
+classe_ambientale - stringa - VARCHAR(20) - NULL
+data_immatricolazione - DATE - NOTNULL
+km_veicolo - float - FLOAT(8, 2) - NOTNULL
+numeromax_passeggeri - intero - SMALLINT - NOTNULL
+descrizione_danni - stringa - TEXT - NULL
